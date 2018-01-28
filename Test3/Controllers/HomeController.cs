@@ -16,7 +16,7 @@ namespace Test3.Controllers
 
             ViewData["Version"] = mvcName.Version.Major + "." + mvcName.Version.Minor;
             ViewData["Runtime"] = isMono ? "Mono" : ".NET";
-
+            //testing
             return View();
         }
     }
